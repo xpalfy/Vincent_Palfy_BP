@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    background-color: #f8f9fa;
+}
+
+.login-container {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px 0 20px 0;
+}
+
+.form-control, .btn {
+    font-size: 18px;
+    padding: 15px;
+}
+
+.register {
+    font-size: 18px;
+}

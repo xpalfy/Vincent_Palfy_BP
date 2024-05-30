@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.footer p {
+    margin: 10px;
+}
+
+.content {
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.lang {
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.lang .card {
+    height: 100%;
+}
+
+.lecture-name {
+    font-weight: bold;
+    margin-top: 10px;
+}

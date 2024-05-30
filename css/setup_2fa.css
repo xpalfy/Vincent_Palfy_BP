@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.qr-container {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.qr-code {
+    max-width: 100%;
+    height: auto;
+}
+
+.error-message {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #dc3545;
+}
+

@@ -1,0 +1,18 @@
+body {
+    margin: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}

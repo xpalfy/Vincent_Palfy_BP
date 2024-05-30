@@ -1,0 +1,7 @@
+{
+    "require": {
+        "endroid/qr-code": "^5.0",
+        "sonata-project/google-authenticator": "^2.3",
+      "ext-mysqli": "*"
+    }
+}

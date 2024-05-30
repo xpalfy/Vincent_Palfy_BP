@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg-image {
+    background-image: url("/img/img_1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image{
+    max-width: 80%;
+}
+
+.footer, .navbar {
+    background-color: #343a40;
+    color: white;
+}
+
+.footer p {
+    margin: 10px;
+}
+
+.space {
+    height: 80px;
+}
+
+.card{
+    padding: 30px;
+    border: 1px solid white;
+}
+
+#clock {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .image{
+        max-width: 60%;
+    }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+    .card {
+        padding: 10px;
+    }
+    .card h2{
+        font-size: 1.5rem;
+    }
+    #clock {
+        font-size: 2rem;
+    }
+    .image{
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        padding: 10px;
+    }
+    .card h2{
+        font-size: 1.5rem;
+    }
+    #clock {
+        font-size: 2rem;
+    }
+    .image{
+        max-width: 60%;
+    }
+}
